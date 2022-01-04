@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+
+        <ImageView
+            android:id="@+id/Branch_logo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#c1c1c1" />
+
+
+        <View
+            android:id="@+id/user_name"
+            android:layout_width="100dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="22dp"
+            android:background="#c1c1c1" />
+
+        <View
+            android:layout_width="130dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="40dp"
+            android:background="#c1c1c1" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="60dp"
+            android:background="#c1c1c1" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="80dp"
+            android:background="#c1c1c1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
